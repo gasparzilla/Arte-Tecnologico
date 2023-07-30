@@ -1,11 +1,11 @@
 #include "FastLED.h"
 
 #define N_LEDS 60
-CRGB leds[NUM_LEDS];
-#define PIN 6
+CRGB leds[N_LEDS];
+#define pinLed 6
 
 void setup(){
-  FastLED.addLeds<WS2811, PIN, GRB>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
+  FastLED.addLeds<WS2811, pinLed, GRB>(leds, N_LEDS).setCorrection( TypicalLEDStrip );
 }
 
 void loop(){

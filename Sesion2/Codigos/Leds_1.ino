@@ -5,9 +5,9 @@
 // Definir el numero de leds a uilizar
 #define N_LEDS 60
 // Inicializar arreglo para controlar leds
-CRGB leds[NUM_LEDS];
+CRGB leds[N_LEDS];
 // Definir pin para control de leds
-#define PIN 6
+#define pinLed 6
 
 // configuracion
 void setup(){
@@ -24,7 +24,7 @@ void setup(){
   //      de los colores para que se perciban de m-
   //      anera correcta
   //                      .setCorrection(TypicalLEDStrip)
-  FastLED.addLeds<WS2811, PIN, GRB>(leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
+  FastLED.addLeds<WS2811, pinLed, GRB>(leds, N_LEDS).setCorrection( TypicalLEDStrip );
 }
 
 void loop(){
