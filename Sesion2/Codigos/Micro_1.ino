@@ -1,34 +1,38 @@
 #include "FastLED.h"
 
-#define N_LEDS 15
+#define N_LEDS 18
 CRGB leds[N_LEDS];
 #define pinLed 6
 
 // Definir el pin a utilizar por el microfono
-#define pinMic = 9
+#define pinMic 9
 
 int volumen = 0;
 
-void setup{
+void setup(){
   FastLED.addLeds<WS2811, pinLed, GRB>(leds, N_LEDS).setCorrection( TypicalLEDStrip );
   pinMode(pinMic, INPUT);
+  Serial.begin(9600);
 }
 
-void loop{
+void loop(){
   // Leer el valor del microfono digital
-  microfono = digitalRead(pinMic)
+  int microfono = digitalRead(pinMic);
   // Disminur o aumentar el contador de volumen
   // cuando se active el microfono
-  if ((microfono == 1) and (volumen < 1000)) {
-    volumen++;
+  if ((microfono == 0) and (volumen < 1000)) {
+    volumen=volumen+200;
   }
   else if ((microfono == 1) and (volumen > 0)) {
-    volumen--;
+    volumen=volumen-15;
     // Agregar una pausa para que no 
     // baje tan rapido 
-    delay(50);
+    delay(10);
   }
-  encenderLeds = map(volumen, 0, 1000, 0, 15)
+  Serial.print(microfono);
+  Serial.print("     ");
+  Serial.println(volumen);
+  int encenderLeds = map(volumen, 0, 1000, 0, 15);
   // Encender los LEDs dependiendo del volumen
   for (int i = 0; i < encenderLeds; i++){
   	// Si los leds encendidos son los primeros 10
