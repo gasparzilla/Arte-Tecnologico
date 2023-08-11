@@ -22,6 +22,8 @@ La clase consiste de los siguientes temas:
 
 **Link Presentacion**: [LINK DRIVE](https://docs.google.com/presentation/d/1EviYbPaaKb9tqKLpUtJP-oxA1Q4d3Op3gEAHCVnIopA/edit?usp=sharing)
 
+**Plantilla de evaluacion** [LINK CANVA](https://www.canva.com/design/DAFrRIBWJRk/pvOt982nAicLqgf-bzcupw/view?utm_content=DAFrRIBWJRk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
+
 ## Sesion 2: Arte Luminico
 
 Componentes:
