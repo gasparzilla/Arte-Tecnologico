@@ -2,6 +2,8 @@
 
 En este repositorio encontrarán los codigos correspondientes a las respuestas de los desafios propuestos en clase para el segundo semestre del 2023.
 
+Otros contenidos complementarios como presentaciones y archivos varios pueden encontrarse en el siguiente [LINK](https://drive.google.com/drive/folders/1Tn7V2JQ0QPvpc4EZ5BK7eQtjyOt47Y34?usp=drive_link)
+
 Las sesiones están divididas por medio artistico, con la intencion de presentar componentes que apunten a distintos objetivos artisticos.
 
 ## Sesion 1: Introduccion
@@ -18,7 +20,7 @@ La clase consiste de los siguientes temas:
 - Formacion de grupos
 - Ficha de proyecto
 
-**Link Presentacion: ** [LINK DRIVE](https://docs.google.com/presentation/d/1EviYbPaaKb9tqKLpUtJP-oxA1Q4d3Op3gEAHCVnIopA/edit?usp=sharing)
+**Link Presentacion**: [LINK DRIVE](https://docs.google.com/presentation/d/1EviYbPaaKb9tqKLpUtJP-oxA1Q4d3Op3gEAHCVnIopA/edit?usp=sharing)
 
 ## Sesion 2: Arte Luminico
 
