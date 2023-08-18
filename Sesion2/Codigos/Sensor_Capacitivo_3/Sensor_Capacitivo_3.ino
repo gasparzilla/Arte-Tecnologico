@@ -1,9 +1,9 @@
 #include <CapacitiveSensor.h>
 
 // Definir el pin a utilizar para el led
-const int led = 10;
+const int led = 9;
 
-CapacitiveSensor cs1 = CapacitiveSensor(8,9);
+CapacitiveSensor cs1 = CapacitiveSensor(16,10);
 
 void setup() {
   cs1.set_CS_AutocaL_Millis(0xFFFFFFFF);

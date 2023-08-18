@@ -1,6 +1,6 @@
 #include <CapacitiveSensor.h>
 
-CapacitiveSensor cs1 = CapacitiveSensor(8,9);
+CapacitiveSensor cs1 = CapacitiveSensor(16,10);
 
 void setup() {
   cs1.set_CS_AutocaL_Millis(0xFFFFFFFF);

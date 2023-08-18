@@ -3,7 +3,7 @@
 // un servomotor
 #include <Servo.h>
 
-CapacitiveSensor cs1 = CapacitiveSensor(8,9);
+CapacitiveSensor cs1 = CapacitiveSensor(16,10);
 // Definir el servo que vamos a controlar
 Servo myServo;
 
