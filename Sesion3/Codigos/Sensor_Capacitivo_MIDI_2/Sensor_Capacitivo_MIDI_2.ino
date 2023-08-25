@@ -1,10 +1,10 @@
 #include <CapacitiveSensor.h>
 #include <MIDIUSB.h>
 
-CapacitiveSensor cs1 = CapacitiveSensor(8,9);
-CapacitiveSensor cs2 = CapacitiveSensor(5,6);
-CapacitiveSensor cs3 = CapacitiveSensor(2,3);
-CapacitiveSensor cs4 = CapacitiveSensor(16,10);
+CapacitiveSensor cs1 = CapacitiveSensor(16,10);
+CapacitiveSensor cs2 = CapacitiveSensor(15,14);
+CapacitiveSensor cs3 = CapacitiveSensor(A1,A0);
+CapacitiveSensor cs4 = CapacitiveSensor(A3,A2);
 
 void setup() {
   cs1.set_CS_AutocaL_Millis(0xFFFFFFFF);
