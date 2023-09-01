@@ -32,8 +32,14 @@ void loop(){
   Serial.print(microfono);
   Serial.print("     ");
   Serial.println(volumen);
-  int encenderLeds = map(volumen, 0, 1000, 0, 15);
+  int encenderLeds = map(volumen, 0, 1000, 0, N_LEDS);
   // Encender los LEDs dependiendo del volumen
+  if (encenderLeds < 0){
+  	encenderLeds = 0;
+  }
+  if (encenderLeds > N_LEDS){
+  	encenderLeds = N_LEDS;
+  }
   for (int i = 0; i < encenderLeds; i++){
   	// Si los leds encendidos son los primeros 10
   	// encender en verde
@@ -42,7 +48,7 @@ void loop(){
   	}
   	// Si los leds encendidos son del 11 al 13
   	// encender en amarillo
-  	else if (i<13){
+  	else if ((i>=10) && (i<13){
   		cambiar_LED(i, 125, 125, 0);
   	}
   	// Si los leds encendidos son del 14 al 15
@@ -52,7 +58,7 @@ void loop(){
   	}
   }
   // Apagar los LEDs dependiendo del volumen
-  for (int i = encenderLeds-1; i < 15; i++){
+  for (int i = N_LEDS-1; i < 0; i++){
 		cambiar_LED(i, 0, 0, 0);
     }
   // Mostrar los leds encendidos en la tira led

@@ -18,9 +18,13 @@ void loop(){
   // Leer el valor del microfono digital
   int microfono = analogRead(pinMic);
   Serial.println(microfono);
-  int encenderLeds = map(microfono, 450, 850, 0, 15);
+  int encenderLeds = map(microfono, 450, 850, 0, N_LEDS);
+  // Correccion para no pasarse de la cantidad de LEDs
   if (encenderLeds < 0 ){
     encenderLeds = 0;
+  }
+  if (encenderLeds > N_LEDS){
+  	encenderLeds = N_LEDS;
   }
   // Encender los LEDs dependiendo del volumen
   for (int i = 0; i < encenderLeds; i++){
@@ -31,7 +35,7 @@ void loop(){
     }
     // Si los leds encendidos son del 11 al 13
     // encender en amarillo
-    else if (i<13){
+    else if ((i>=10) && (i<13)){
       cambiar_LED(i, 125, 125, 0);
     }
     // Si los leds encendidos son del 14 al 15
@@ -41,7 +45,7 @@ void loop(){
     }
   }
   // Apagar los LEDs dependiendo del volumen
-  for (int i = encenderLeds-1; i < 15; i++){
+  for (int i = N_LEDS-1; i < 15; i++){
     cambiar_LED(i, 0, 0, 0);
     }
   // Mostrar los leds encendidos en la tira led
