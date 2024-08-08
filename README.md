@@ -20,16 +20,17 @@ La clase consiste de los siguientes temas:
 - Formacion de grupos
 - Ficha de proyecto
 
-**Link Presentacion**: [LINK DRIVE](https://docs.google.com/presentation/d/1EviYbPaaKb9tqKLpUtJP-oxA1Q4d3Op3gEAHCVnIopA/edit?usp=sharing)
+**Link Presentacion**: [LINK DRIVE]()
 
 **Plantilla de evaluacion** [LINK CANVA](https://www.canva.com/design/DAFrRIBWJRk/pvOt982nAicLqgf-bzcupw/view?utm_content=DAFrRIBWJRk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
-## Sesion 2: Sensores Capacitivos
+**FICHA DE PROYECTO** [LINK FICHA](https://docs.google.com/document/d/1ikfKbGYQhVM7DPobqPiuQ4k6cILKj01P9sCPplF6Vmg/edit?usp=sharing)
 
-**Link Presentacion**: [LINK DRIVE](https://docs.google.com/presentation/d/120B2YWuYqQmPIkVZ62XbVx8jG2YkdnKKIFmK2jPqY4I/edit?usp=sharing)
+## Sesion 2: Arte Interactivo / Sensores Capacitivos / Ejercicios Arduino
 
-## Sesion 3: 
+**Link Presentacion**: [LINK DRIVE]()
 
-## Sesion 4:
+## Sesion 3: Arte Sonoro y Luminico / LED WS2112 
 
-# TODO: TERMINAR README
+## Sesion 4: Narrativa
+
