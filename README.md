@@ -20,7 +20,7 @@ La clase consiste de los siguientes temas:
 - Formacion de grupos
 - Ficha de proyecto
 
-**Link Presentacion**: [LINK DRIVE]()
+**Link Presentacion**: [LINK DRIVE](https://docs.google.com/presentation/d/1Z7-BkC1ltClsG00SkTthbcHbHTwSYHWZ/edit?usp=sharing&ouid=103007674410080376756&rtpof=true&sd=true)
 
 **Plantilla de evaluacion** [LINK CANVA](https://www.canva.com/design/DAFrRLp7o6w/gjhC-M92yl5ZTH3YK-nftA/edit?utm_content=DAFrRLp7o6w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
