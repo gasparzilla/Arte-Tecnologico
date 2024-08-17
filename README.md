@@ -2,8 +2,6 @@
 
 En este repositorio encontrarán los codigos correspondientes a las respuestas de los desafios propuestos en clase para el segundo semestre del 2023.
 
-Otros contenidos complementarios como presentaciones y archivos varios pueden encontrarse en el siguiente [LINK](link escondido)
-
 Las sesiones están divididas por medio artistico, con la intencion de presentar componentes que apunten a distintos objetivos artisticos.
 
 ## Sesion 1: Introduccion
