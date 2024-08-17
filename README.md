@@ -8,7 +8,7 @@ Las sesiones están divididas por medio artistico, con la intencion de presentar
 
 ## Sesion 1: Introduccion
 
-En la Sesion uno, se introduciran las ideas principales del arte medial, sus principales exponentes y ejemplos. Además, se explicará en lo que consiste la competencia ON STAGE de la ROBOCUP
+En la Sesion uno, se introducen las ideas principales del arte medial, sus principales exponentes y ejemplos. Además, se explicará en lo que consiste la competencia ON STAGE de la ROBOCUP
 
 La clase consiste de los siguientes temas:
 - Introduccion al club de arte tecnologico
@@ -28,7 +28,16 @@ La clase consiste de los siguientes temas:
 
 ## Sesion 2: Arte Interactivo / Sensores Capacitivos / Ejercicios Arduino
 
-**Link Presentacion**: [LINK DRIVE]()
+En la Sesion dos, se introducen las ideas principales del arte interactivo junto a exponentes y ejemplos.
+
+La clase consiste de los siguientes temas:
+- ¿Que es el arte interactivo?
+- Exponentes
+- Sensores Capacitivos
+- Ejercicios sensores capacitivos (LEDs y Servos)
+- Adelanto sesion 3
+
+**Link Presentacion**: [LINK DRIVE](https://docs.google.com/presentation/d/1u9PBoF3oMxrpHahchMSp118Jm3qRjkFfb37UU_Na1Z0/edit?usp=drive_link)
 
 ## Sesion 3: Arte Sonoro y Luminico / LED WS2112 
 
