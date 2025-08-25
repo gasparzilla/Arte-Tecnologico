@@ -1,4 +1,4 @@
-#include "FastLED.h"
+#include FastLED.h
 
 #define N_LEDS 60
 CRGB leds[N_LEDS];
